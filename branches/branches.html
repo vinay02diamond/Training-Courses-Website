@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Branches</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="branches.css">
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-uppercase" href="#">Training courses</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Branches</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#courses">Courses</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  <!--Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"> Request a callback!!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <section class="full_name">
+            <label for ="Name">Enter your Phone number</label>
+            <input type="number" placeholder="Enter your phone number here">
+        </section>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id="computerbranch-carousel" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#computerbranch-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#computerbranch-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#computerbranch-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="computerclass1.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+                <h1 class ="fw-bolder text-capitalize text-uppercase">Bengaluru</h1>
+                <p class="mt-5 fs-3">Due to our popular demand and word of mouth marketing of our students we took a major step to open our first branch in bengaluru in year 2017</p>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Book a call
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"> Request a callback!!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="form-floating">
+                <input type="number" class="form-control" id="floatingNumber" placeholder="number">
+                <label for="floatingNumber">Enter your phone number</label>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="computerclass2.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption top-0 mt-4 d-md-block">
+              <h1 class ="fw-bolder text-capitalize text-uppercase">Chennai</h1>
+              <p class="mt-5 fs-3"><strong>Our Journey Timeline Starts from Chennai, India.</strong><br>We opened our first official branch in Chennai in the year of 2011. Our First Branch location is Velachery.</p>
+                <button type="button" class="btn btn-warning">Book a call</button>
+              </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="computerclasss3.jpg" class="d-block w-100 c-img" alt="...">
+            <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+              <h1 class ="fw-bolder text-capitalize text-uppercase">Bengaluru</h1>
+              <p class="mt-5 fs-3">Due to our popular demand and word of mouth marketing of our students we took a major step to open our first branch in bengaluru in year 2017</p>
+                <button type="button" class="btn btn-danger">Book a call</button>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#computerbranch-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#computerbranch-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+      <section>
+      <p class="placeholder-wave">
+        <span class="placeholder col-12 "></span>
+      </p>
+    </section>
+      <section id="courses" class="pt-5">
+        <h2 class="text-center fw-bolder text-capitalize text-uppercase" my-5>courses</h2>
+        <div class="conatiner">
+        <div class="row">
+          <div class="col-lg">
+            <div class="card" style="width: 18rem;">
+              <img src="software testing.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Software Testing</h5>
+                <p class="card-text">Online Training helps the professionals to handle the script writing to fix the bug with functional areas of the website.</p>
+                <a href="#" class="btn btn-primary">Enroll now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card" style="width: 18rem;">
+              <img src="fullstackmasterprogram.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fullstack developer</h5>
+                <p class="card-text">Besant Technologies provides the Best Full Stack Training in Chennai, Bangalore & Online with 100% placements.</p>
+                <a href="#" class="btn btn-primary">Enroll now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card" style="width: 18rem;">
+              <img src="datasciencemasterprogram.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Datascience</h5>
+                <p class="card-text">Learn Data Science Online Training Course from India's #1 Certification Oriented Data Science Online Training.</p>
+                <button type="button" class="btn btn-primary position-relative">
+                  Enroll Now
+                  <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                    <span class="visually-hidden">New alerts</span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card" style="width: 18rem;">
+              <img src="devopsmasterprogram.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Devops</h5>
+                <p class="card-text">Learn Basic and Advanced level of AWS, Azure Cloud infrastructure using Kubernetes and Dockers in the Real-time Projects.</p>
+                <a href="#" class="btn btn-primary">Enroll now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section>
+      <div class="alert alert-primary mt-4" role="alert">
+        Data refreshed successfully!
+      </div>
+      <section>
+        <p class="placeholder-glow">
+          <span class="placeholder col-12 bg-primary"></span>
+        </p>
+      </section>
+    </section>
+      <section>
+        <div id="faq" class="py-md-1">
+          <h2 class="my-5 text-center">FAQ</h2>
+          <div class="accordion w-75 mx-auto" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Are you looking for exiting offers ?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Call now: +91-9707 250 260 </strong>and know the exciting offers available for you!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Why should i learn this course from besant Technology?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                Besant Technologies offers 250+ IT training courses in more than 20+ branches all over India with 10+ years of Experienced Expert level Trainers.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What if i miss my session?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>No worries.</strong>Besant technologies assure that no one misses single lectures topics. We will reschedule the classes as per your convenience within the stipulated course duration with all such possibilities. If required you can even attend that topic with any other batches.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h3 class="my-5 text-center">Interview Related Question</h3>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Java interview questions with answers</li>
+          <li class="list-group-item">Python interview questions with answers</li>
+          <li class="list-group-item">Javascript interview questions with answers</li>
+          <li class="list-group-item">Sql interview questions with answers</li>
+          <li class="list-group-item">Html and Css interview questions with answers</li>
+        </ul>
+      </section>
+      <section>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination my-5 ">
+            <li class="page-item"><a class="page-link" href="project1.html">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="corporatetalent.html">2</a></li>
+            <li class="page-item"><a class="page-link" href="HireTalent.html">3</a></li>
+            <li class="page-item"><a class="page-link" href="AboutUs.html">Next</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%"></div>
+        </div>
+      </section>
+      <footer class="bg-dark py-5 mt-5">
+        <div class="container text-light text-center">
+          <p class="display-5 mb-3">Besant technology</p>
+          <style>
+            .breadcrumb {
+              justify-content: center; /* Center align breadcrumb items */
+            }
+          </style>
+          <p>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="project1.html">Home</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Library</li>
+              </ol>
+            </nav>
+          </p>
+          
+          <small class="text-white-50">&copy; Copyright by Besant.All rights reserved</small>
+      </div>
+      </footer>
+
+</body>
+</html>
